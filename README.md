@@ -1,1 +1,149 @@
-# Myblog
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buoi 01</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #353b48;
+            color: white;
+            font-family: 'Be Vietnam Pro', 'Be Vietnam Pro', Be Vietnam Pro, Be Vietnam Pro;
+        }
+
+        .content {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        .text {
+            color: aliceblue;
+        }
+
+        img {
+            border-radius: 10%;
+        }
+
+        p {
+            color: gray;
+            margin-top: 5px;
+        }
+
+        .list {
+            border-top: 1px solid #525252;
+            border-bottom: 1px solid #525252;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+            .list li {
+                display: inline-block;
+                margin-right: 30px;
+                color: #b8b8b8;
+                font-weight: bold;
+            }
+
+        .box {
+            background-color: #46464645;
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+
+        .job {
+            list-style: none;
+        }
+
+            .job li {
+                margin-bottom: 10px;
+            }
+
+        h2 {
+            text-align: center;
+        }
+
+        .note {
+            text-align: center;
+        }
+
+        a {
+            text-align: center;
+            background-color: rgb(131 131 131 / 28%);
+            display: block;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            text-decoration: none;
+        }
+
+        iframe {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+
+        <img src="Trung/ava2.jpg" alt="" width="100" heigh="100">
+        <h1 class="text">TRẦN VIỆT THÀNH</h1>
+        <P>1000 bạn bè</P>
+
+
+        <ul class="list">
+            <li>Bài viết</li>
+            <li>Giới thiệu</li>
+            <li>Bạn bè</li>
+            <li>Ảnh</li>
+            <li>Video</li>
+            <li>Reels</li>
+        </ul>
+        <div class="box">
+            <h2>GIỚI THIỆU</h2>
+            <p class="note">Sinh viên năm 2</p>
+            <p class="note">Trường Đại học Kinh tế Thành phố Hồ Chí Minh</p>
+            <a href="https://www.facebook.com/thnhtrn.ne/">Facebook</a>
+            <ul class="job">
+                <li><i class="fa-solid fa-school"></i> Media Executive tại weshare.asia - shop & share</li>
+                <li><i class="fa-solid fa-school"></i> Học tại UEH - Trường Đại học Kinh tế TP.HCM</li>
+                <li><i class="fa-solid fa-school"></i> Đã học tại Trường THPT Chuyên Lê Quý Đôn - Bình Định</li>
+                <li><i class="fa-solid fa-house"></i> Sống tại Thành phố Hồ Chí Minh</li>
+                <li><i class="fa-solid fa-location-dot"></i> Đến từ Quy Nhơn</li>
+
+
+            </ul>
+        </div>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DZyeMmeQo-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <table>
+            <tr>
+                <td>CẤP</td>
+                <td>TRƯỜNG</td>
+                <td>LOẠI</td>
+            </tr>
+            <tr>
+                <td>Trường Đại học </td>
+                <td>Kinh tế Thành phố Hồ Chí Minh</td>
+                <td>Xuất sắc</td>
+            </tr>
+            <tr>
+                <td>Trường Trung học Phổ thông Chuyên</td>
+                <td>Lê Quý Đôn</td>
+                <td>Xuất sắc</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
